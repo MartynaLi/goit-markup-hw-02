@@ -13,26 +13,50 @@ body {
   --button-color: #404bbf;
 }
 
-.filter-list {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+.background {
+  background-color: #2e2f42;
+}
+.header-1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.12px;
 }
 
-.filter-button {
-  color: var(--brand-color);
-  background-color: var(--background-color-cloud);
+.header-3 {
+  color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.40px;
 }
 
-.filter-button:hover {
-  color: var(--white);
-  background-color: var(--button-color);
+.description {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
 }
 
+.header-2 {
+  color: #2E2F42;
+font-size: 36px;
+font-weight: 700;
+text-transform: capitalize;
+line-height: 1.1px;
+letter-spacing: 0.72px;
+}
+
+.background-cloud {
+  background-color: #f4f4fd;
+}
+
+.list {
+  list-style: none;
+}
 .link {
   text-decoration: none;
-  color: var(--text-color);
+  color: #2e2f42;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -41,15 +65,34 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--brand-color);
+  color: #4d5ae5;
   text-decoration: none;
 }
+
+.logo-studio {
+  color: #2e2f42;
+}
+
 .link:hover {
   color: var(--link-hover);
 }
 .link:focus {
   color: var(--link-hover);
 }
-.logo-studio {
-  color: var(--text-color);
+
+.filter-list {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.filter-button {
+  color: #4d5ae5);
+  background-color: #f4f4fd;
+}
+
+.filter-button:hover {
+  color: #fff;
+  background-color: #404bbf;
 }
