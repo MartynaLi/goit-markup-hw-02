@@ -16,7 +16,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
-  background-color: var(--modal-background-color);
+  background-color: var(--white-background-color);
 }
 
 .background {
@@ -26,8 +26,9 @@ body {
   color: var(--white-background-color);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.07em;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .header-3 {
@@ -35,13 +36,13 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .description {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0em;
+  letter-spacing: 0.02em;
 }
 
 .header-2 {
@@ -49,8 +50,9 @@ body {
   font-size: 36px;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 1.1px;
-  letter-spacing: 0.05em;
+  line-height: 1.11px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .background-cloud {
@@ -61,8 +63,8 @@ body {
   list-style: none;
 }
 .link {
+  color: var(--text-color);
   text-decoration: none;
-  color: var(--dark-color);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -76,16 +78,16 @@ body {
 }
 
 .logo-studio {
-  color: var(--dark-color);
+  color: var(--text-color);
 }
 
 .link:hover,
 .link:focus {
-  color: var(--primary-brand-color);
+  color: var(--pressed-state-color);
 }
 
 .link-nav {
-  color: var(--hero-background-color);
+  color: var(--text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -109,9 +111,13 @@ body {
 
 .filter-button {
   color: var(--primary-brand-color);
-  background-color: var(--light-color);
+  background-color: var(--white-background-color);
   font-family: inherit;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .filter-button:hover,
@@ -121,7 +127,7 @@ body {
 }
 
 .address {
-  font-style: none;
+  font-style: normal;
 }
 
 .footer {
