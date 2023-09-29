@@ -96,6 +96,7 @@ body {
 }
 
 .link-address {
+  color: var(--text-color)
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -122,13 +123,18 @@ body {
 
 .filter-button {
   color: var(--primary-brand-color);
-  background-color: var(--white-background-color);
+  background-color: var(--light-color);
   font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.filter-button-main:hover,
+.filter-button-main:focus {
+  background-color: var(--pressed-state-color)
 }
 
 .filter-button:hover,
