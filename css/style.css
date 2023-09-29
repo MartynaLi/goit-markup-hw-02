@@ -50,7 +50,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 1.11px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -63,7 +63,7 @@ body {
   list-style: none;
 }
 .link {
-  color: var(--text-color);
+  color: var(--dark-color);
   text-decoration: none;
 }
 .logo {
@@ -78,7 +78,7 @@ body {
 }
 
 .logo-studio {
-  color: var(--text-color);
+  color: var(--dark-color);
 }
 
 .link:hover,
@@ -86,7 +86,7 @@ body {
   color: var(--pressed-state-color);
 }
 
-.link-nav {
+.link-header {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 500;
